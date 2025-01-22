@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title,
+.content {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  font-size: 96px;
+  padding-bottom: 32px;
+  letter-spacing: 6px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.new {
+  color: orange;
+}
