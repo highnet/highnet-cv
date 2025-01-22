@@ -2,10 +2,11 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
+import { LayoutComponent } from '../layout/layout.component';
 
 @Component({
   selector: 'app-homepage',
-  imports: [MatButtonModule],
+  imports: [MatButtonModule, LayoutComponent],
 
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss'],
