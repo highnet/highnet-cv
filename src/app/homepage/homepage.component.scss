@@ -23,6 +23,7 @@
 
 .new {
   color: orange;
+  padding-left: 0.5rem;
 }
 
 .about {
@@ -33,4 +34,21 @@
   .title {
     font-size: 128px;
   }
+}
+
+object {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cb {
+  border-radius: 50%;
 }

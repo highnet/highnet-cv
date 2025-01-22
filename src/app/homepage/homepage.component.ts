@@ -2,11 +2,11 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
-import { LayoutComponent } from '../layout/layout.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-homepage',
-  imports: [MatButtonModule, LayoutComponent],
+  imports: [CommonModule, MatButtonModule],
 
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss'],
@@ -14,7 +14,7 @@ import { LayoutComponent } from '../layout/layout.component';
 export class HomepageComponent {
   constructor(private router: Router) {}
 
-  goToAbout(): void {
+  goToCV(): void {
     this.router.navigate(['/about']);
   }
 }

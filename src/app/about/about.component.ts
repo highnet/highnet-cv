@@ -2,11 +2,10 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
-import { LayoutComponent } from '../layout/layout.component';
 
 @Component({
   selector: 'app-about',
-  imports: [MatButtonModule, LayoutComponent],
+  imports: [MatButtonModule],
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss'],
 })
