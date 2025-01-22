@@ -1,3 +1,6 @@
 <mat-toolbar>
-  <span></span>
+  <button mat-mini-fab (click)="goBack()">
+    <mat-icon *ngIf="!isHomeRoute()">arrow_back</mat-icon>
+    <mat-icon *ngIf="isHomeRoute()">home</mat-icon>
+  </button>
 </mat-toolbar>

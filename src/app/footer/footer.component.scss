@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.logo {
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  vertical-align: middle;
+}
