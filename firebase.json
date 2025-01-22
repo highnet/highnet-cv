@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/angular-starter-template/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
