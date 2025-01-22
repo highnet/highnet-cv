@@ -1,11 +1,19 @@
+// filepath: /c:/Users/joaqu/angular-starter-template/src/app/homepage/homepage.component.ts
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-homepage',
-  standalone: true,
   imports: [MatButtonModule],
+
   templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.scss',
+  styleUrls: ['./homepage.component.scss'],
 })
-export class HomepageComponent {}
+export class HomepageComponent {
+  constructor(private router: Router) {}
+
+  goToAbout(): void {
+    this.router.navigate(['/about']);
+  }
+}

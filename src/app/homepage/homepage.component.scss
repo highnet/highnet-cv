@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
+  padding: 0px 32px;
 }
 
 .title,
 .content {
-  text-align: center;
   margin: 0;
   width: 100%;
 }
@@ -31,4 +32,8 @@
 
 .new {
   color: orange;
+}
+
+.about {
+  margin-top: 18px;
 }
