@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [MatButtonModule, HttpClientModule],
+  imports: [MatButtonModule, HttpClientModule, MatIconModule],
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss'],
 })

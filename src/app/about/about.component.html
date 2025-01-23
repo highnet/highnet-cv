@@ -21,6 +21,10 @@
   width="100%"
   height="600px"
 >
-  <p>Your browser does not support PDFs.</p>
-  <button mat-raised-button (click)="downloadCV()">Download CV</button>
+  <p class="error">
+    <mat-icon class="icon">error</mat-icon> Your browser does not support PDFs.
+  </p>
+  <button mat-raised-button (click)="downloadCV()">
+    <mat-icon class="icon">download</mat-icon>Download CV
+  </button>
 </object>
