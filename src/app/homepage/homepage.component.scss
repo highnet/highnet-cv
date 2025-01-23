@@ -50,3 +50,10 @@ object {
   display: inline-block;
   vertical-align: middle;
 }
+
+.cta {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 {
-  "name": "angular-starter-template",
-  "version": "0.0.0",
+  "name": "highnet-cv",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

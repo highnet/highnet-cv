@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
+import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-homepage',
-  imports: [CommonModule, MatButtonModule],
+  imports: [CommonModule, MatButtonModule, MatIconModule],
 
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss'],
