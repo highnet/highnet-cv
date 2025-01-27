@@ -14,12 +14,12 @@ export class AboutComponent {
   constructor(private http: HttpClient) {}
 
   downloadCV() {
-    const pdfUrl = 'JT-CV-ENG-1_merged.pdf';
+    const pdfUrl = 'JT-CV-ENG.pdf';
     this.http.get(pdfUrl, { responseType: 'blob' }).subscribe((blob) => {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'JT-CV-ENG-1_merged.pdf';
+      a.download = 'JT-CV-ENG.pdf';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
