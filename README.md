@@ -37,7 +37,7 @@ To get a local copy up and running, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone git@github.com:highnet/highnet-cv.git
     cd highnet-cv
     ```
 2.  **Install NPM packages:**
